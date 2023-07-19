@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex justify-content-center align-items-center barra-de-navegacion">
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Recursos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Actualizaciones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Aprender</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML5</a></li>
+                <li><a class="dropdown-item" href="#">CSS3</a></li>
+                <li><a class="dropdown-item" href="#">Booststrap5</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid presentacion">
+        <div class="titulo">
+          <h1 id="alba">ALBA DEVS</h1>
+          <h2>¡Conoce desde lo más básico a lo más avanzando en el desarrollo de aplicaciones web!</h2>
+          <p><i>Aprende gratis sobre las tecnologías más utilizadas actualmente y convierte en un desarrollador</i></p>
+        </div>
+        <div class="contenido-front">
+          <div class="imagen1">
+            <img src="presentacion-img.jpg" alt="html-css-js-bs5">
+          </div>
+          <div class="content-front">
+            <h2 class="titulo-front">Ruta Front-End Developer</h2>
+            <p>HTML5 para darle estructura y solides al contenido de tu página web.</p>
+            <p>CSS3 para darle diseño, animaciones y vida a tu página web.</p>
+            <p>Bootstrap5 para añadir componentes predefinidos y otras funcionalidades increíbles.</p>
+            <p>JavaScript para darle funcionalidad a tu página web y permitir la interacción del usuario con tu website.</p>
+            <p>React para fusionar todo lo que haz aprendido y facilitar el uso de JavaScript.</p>  
+          </div>
+        </div>
+        <div class="contenido-back">
+          <div class="imagen2">
+            <img src="backend.jpg" alt="html-css-js-bs5">
+          </div>
+          <div class="content-back">
+            <h2 class="titulo-back">Ruta Back-End Developer</h2>
+            <p>Lenguajes JavaScript, Java, PHP, Python, C#, Ruby.</p>
+            <p>Bases de datos SQL: mySQL, Oracle Database, SQL Server, etc. </p>
+            <p>Bootstrap5 para añadir componentes predefinidos y otras funcionalidades increíbles.</p>
+            <p>Protocolo HTTP</p>
+            <p>Autenticacion y webSockets</p>
+            <p>Frameworks Javascript: Node.js, Java: Spring, PHP: Laravel, Python: Django, C#: .NET, Ruby: Ruby on Rails</p>  
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
